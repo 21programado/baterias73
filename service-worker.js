@@ -1,11 +1,11 @@
-const CACHE_VERSION = 'app-v1';
+const CACHE_VERSION = 'app-v2';
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const APP_SHELL = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/icon-192.png',
-    '/icon-512.png'
+   '/baterias73/',
+    '/baterias73/index.html',
+    '/baterias73/manifest.json',
+    '/baterias73/icon-192.png',
+    '/baterias73/icon-512.png'
 ];
 
 // INSTALL
@@ -75,3 +75,4 @@ self.addEventListener('fetch', event => {
         );
     }
 });
+
