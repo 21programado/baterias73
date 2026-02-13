@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'app-v2';
+const CACHE_VERSION = 'app-v3';
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const APP_SHELL = [
     './',
@@ -75,5 +75,6 @@ self.addEventListener('fetch', event => {
         );
     }
 });
+
 
 
