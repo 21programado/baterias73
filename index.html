@@ -7,8 +7,9 @@
 
 <meta name="theme-color" content="#1A73E8">
 <meta name="description" content="Ritmos de batería en diferentes BPM para práctica.">
-<link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/icon-192.png">
+<link rel="manifest" href="/baterias73/manifest.json">
+<link rel="icon" href="/baterias73/icon-192.png">
+
 
 <style>
 :root {
@@ -246,7 +247,7 @@ audio {
 <script>
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
+        navigator.serviceWorker.register('/baterias73/service-worker.js')
         .then(reg => {
             reg.update();
         })
@@ -257,3 +258,4 @@ if ('serviceWorker' in navigator) {
 
 </body>
 </html>
+
